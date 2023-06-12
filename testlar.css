@@ -1,0 +1,64 @@
+#frame{
+    width: 100%;
+    height: 1000px;
+    /* margin: 1.5%; */
+    margin-top: 0;
+    padding: 8%;
+    border: 7px solid lightseagreen;
+    background-image: url("hack\ fon.jpg");
+    background-size: 90%, 90%;
+
+    border-image: 
+    linear-gradient( #165ffd, #f4d10f, #dd2476, #ff512f) 1;
+    animation: rotate
+    2.7s
+    ease-in
+    infinite;
+}
+@keyframes rotate{
+    50%{
+        border-image: 
+        linear-gradient(360deg, #0ce30c, #1c64ff, #dd2476, #ff512f) 1;
+    }
+}
+
+
+a{
+    text-decoration-line: none;
+}
+.btn:hover a{
+    color: aliceblue;
+}
+
+p{
+    margin: 2%;
+}
+
+.btn{
+    margin: 7px;
+}
+
+.btn-outline-light{
+    text-decoration-color: aliceblue;
+}
+
+.form{
+    height: auto;
+    font-variant: normal;
+    background-color: rgb(9, 38, 81);
+}
+#instruction-h1{
+    color: #0ce30c;
+    margin-top: 50px;
+}
+
+
+.top{
+    width: 50px;
+    height: 65px;
+    text-align: center;
+    border: 4px solid #1c64ff;
+    background-color: #75ee7d;
+    position: fixed;
+    font-size: large;
+}
